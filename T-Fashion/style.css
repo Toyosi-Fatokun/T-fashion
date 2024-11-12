@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    background-color: #fff;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    padding: 0;
+}
+
+.second-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10%;
+    width: 100%;
+}
+
+.span-div {
+    margin: -25px;
+    margin-left: 20px;
+    height: 80vh;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.cycle {
+    border-radius: 50px;
+    background-color: plum;
+    height: 20px;
+    padding: 40px;
+}
+
+.cycle-1 {
+    border-radius: 50px;
+    background-color: peru;
+    height: 20px;
+    padding: 40px;
+    margin-top: 0;
+}
+
+.cycle-2 {
+    border-radius: 50px;
+    background-color: rgb(68, 76, 211);
+    height: 20px;
+    padding: 40px;
+    margin-top: 0;
+}
+
+.cycle-3 {
+    border-radius: 50px;
+    background-color: rgb(189, 67, 67);
+    height: 20px;
+    padding: 40px;
+    margin-top: 0;
+}
+
+.cycle-4 {
+    border-radius: 50px;
+    background-color: rgb(63, 126, 96);
+    height: 20px;
+    padding: 40px;
+    margin-top: 0;
+}
+
+.fashion-container {
+    background-image: url(fashion\ \(5\).png);
+    display: flex;
+    margin-left: 50px;
+    width: 70vw;
+    height: 60vh;
+    padding: 35  px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.heading-container {
+    margin-top: -10%;
+}
+
+.heading-container {
+    color: #fff;
+    padding-right: 25%;
+    margin-left: -20px;
+    margin-top: -35px;
+}
+
+.fashion-heading {
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+.fashion-writeup {
+    background-color: rgba(152, 139, 64, 0.821);
+    font-size: 10px;
+    padding: 2px;
+    width: 66px;
+    text-align: center;
+}
+
+.T-container {
+    background-color: rgb(215, 177, 79);
+    opacity: 0.7;
+    margin-left: 20%;
+    margin-right: -3%;
+    margin-bottom: -15px;
+    margin-top: -15px;
+    border-radius: 10px;
+    padding-left: 3%;
+}
+
+.T-heading {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.T-write {
+    font-size: 13.3px;
+    margin-top: -15px;
+}
+
+.username {
+    background-color: white;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 12px;
+    margin-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.login {
+    background-color: rgb(53, 60, 186);
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 15px; 
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom-container {
+    border-top: 1.5px solid #fff;
+    margin-right: 15px;
+}
+
+.register {
+    background-color: white;
+    padding: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #333; 
+    border-radius: 5px;
+}
+
+
+
